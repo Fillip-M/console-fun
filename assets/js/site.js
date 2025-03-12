@@ -19,6 +19,7 @@ console.warn('this is a warning');
 console.error('this is an error');
 
 console.table(myBooks);
+console.groupEnd();
+
 console.time('default');
 console.timeEnd('default');
-console.groupEnd();
